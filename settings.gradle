@@ -1,0 +1,4 @@
+rootProject.name = 'heileo'
+include 'server'
+include 'registry'
+include 'client'

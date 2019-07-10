@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    # 指定注册到eureka server上的服务名称，对于电影微服务，本系列将名称设为microservice-consumer-movie
+    name: provider-client
+
+##eureka客户端
+eureka:
+  client:
+    service-url:
+      defaultZone: http://xukai:123456@127.0.0.1:80/eureka/
+
