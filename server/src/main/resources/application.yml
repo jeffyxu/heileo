@@ -1,0 +1,10 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: service-provrder
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://xukai:123456@127.0.0.1:80/eureka/

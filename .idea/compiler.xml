@@ -4,10 +4,8 @@
     <bytecodeTargetLevel>
       <module name="com.jeffy.heileo.main" target="1.8" />
       <module name="com.jeffy.heileo.test" target="1.8" />
-      <module name="heileo.main" target="1.8" />
       <module name="heileo.server-api.main" target="1.8" />
       <module name="heileo.server-api.test" target="1.8" />
-      <module name="heileo.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
